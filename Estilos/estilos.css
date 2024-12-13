@@ -63,36 +63,30 @@ section{
 }
 
 .footer{
-    padding: 1em;
+    padding-top: 1em;
     clear: both;
+    display: flex;
+    align-items: center;
+    padding-bottom: 1em;
 }
 
 .l-izq{
-    float: left;
-    display: flex;
     color: var(--soft-blue);
     font-family: "Outfit", serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    padding-top: 1em;
 }
 
 .l-der{
-    float: right;
-    display: flex;
     color: var(--White);
     font-family: "Outfit", serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    padding-right: 1em;
-    padding-left: 1em;
-    padding-top: 1em;
 }
 
 .img-footer{
-    float: left;
     width: 2em;
     height: auto;
     clear: both;
